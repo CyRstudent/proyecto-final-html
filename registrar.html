@@ -2,23 +2,7 @@
 <head>
     
     <title>Formulario de registro</title>
-    <script>
-		function validar(){
-			const pass1 = document.getElementById("pw1").value;
-			const pass2 = document.getElementById("pw2").value;
-			const salida = document.getElementById("salida");
-			if(pass1 !== pass2)
-			{	
-				salida.innerHTML="<br>Las contraseñas no coincien</br>";
-			}
-			else
-			{
-				salida.innerHTML = '<br>Bienvenido!</br>'
-			}
-		}
-			
-
-	</script>
+    <script src="./scripts/validar_contraseña.js"></script>
 </head> 
 <body>
 	<center>
