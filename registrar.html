@@ -1,22 +1,46 @@
-﻿<!DOCTYPE html>
-<head>
-    <title>Formulario de registro</title>
-    <script src="./scripts/validar.js"></script>
-</head> 
-<body style="background-color:blue;">
-	<center>
-    
-  	 	<form>
-			Escribe tu nombre aqui: <input id="name", type="text"><br>
-			Introduce tus apellidos sin caracteres especiales:  <input id="surname", type="text"><br>
-			Escribe tu contraseña: <input id="pw1"  type="text"><br>
-			Repite tu contraseña: <input  id="pw2" type="text"><br>
-		 	<input type="button" value="Validar"  onclick="validar()"/><br><br>
-			<font id="salida"></font>
-		</form>
-	<center>
-
-    
-</body>
-    
+﻿<html>
+	<head>
+		<title>Registrar</title>
+		<style>
+			img{
+				width: 50px;
+			}
+		</style>
+	</head>
+	<body style="background-color:blue;">
+		<center>
+		<table  width="95%" border=1 height="100%">
+			<tr height="150px" align="center" >
+				<td colspan="3"> 
+					<img width="100%" src="CABECERA1.jpeg">
+					<a href="inicio.html">Inicio</a>
+					<a href="productos.html">Productos</a>
+					<a href="registrar.html">Registrar</a>
+					<a href="contacto.html">Contacto</a>
+				</td>
+			</tr>
+			<tr height="30px" align="center">
+				<td colspan="3">Menu: Inicio Productos Registrar Contacto</td>
+			</tr>
+			<tr heigtht="80%" align="center">	
+				<td width="15%">¿Aqui esperabas un anuncio?</td>
+				<td width="70%" style="text-align: center;">
+					
+				</td>
+				<td width="15%">¿Aqui esperabas un anuncio?</td>
+			</tr>
+			<tr height="30px" align="center">
+				<form>
+					Escribe tu nombre aqui: <input id="name", type="text"><br>
+					Introduce tus apellidos sin caracteres especiales:  <input id="surname", type="text"><br>
+					Escribe tu contraseña: <input id="pw1"  type="text"><br>
+					Repite tu contraseña: <input  id="pw2" type="text"><br>
+					 <input type="button" value="Validar"  onclick="validar()"/><br><br>
+					<font id="salida"></font>
+				</form>
+				<td colspan="3">Pagina desarrollada por Hugo Sáez Madrid</td>
+			</tr>
+		</table>
+		</center>
+	</body>
 </html>
